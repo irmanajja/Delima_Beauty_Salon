@@ -1,0 +1,335 @@
+/*---Start css reset*/
+html, body, div,span, applet, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del,
+dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldshet, form, label, legend, table, caption,
+tbody, tfood, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul{
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*---End css reset---*/
+
+/*---body---*/
+body{
+    background-color: aquamarine;
+}
+/*---end body---*/
+
+/*---container---*/
+.container {
+    width: 800px;
+    margin: auto;
+
+    background-color: white;
+	box-sizing: border-box;
+}
+/*---header---*/
+.header {
+	width: 100%;
+	background-color: #cc00cc;
+	display: inline-block;
+	border-bottom: 4px solid black;
+}
+.header .judul {
+	width: 88%;
+	float: left;
+	
+}
+.judul h2 {
+	font-size: 50px;
+	font-weight: bold;
+	padding-top: 33px;
+	padding-left: 4px;
+}
+.judul ul li {
+	display: inline-block;
+	font-size: 14px;
+	margin-left: 5px;
+	padding-bottom: 3px;
+	padding-left: 4px;
+}
+.judul a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+.judul a:hover{
+	background-color: aqua;
+	color: black;
+}
+.container .logo {
+	width: 11%;
+	height: 100px;
+	background-image: url(img/header\ copy.png);
+	background-position: -100 0;
+	float: right;
+}
+/*---end of header---*/
+
+/*---content---*/
+.container .content{
+	width: 100%;
+	background-color: cornsilk;
+}
+/*---content main---*/
+.content .main {
+	width: 70%;
+	float: left;
+	
+}
+.main .judulartikel h3 {
+	font-size: 30px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	padding-left: 3px;
+	padding-bottom: 4px;
+	color: brown;
+}
+.main .judulartikel p{
+	padding-left: 3px;
+}
+.main .judulartikel a {
+	text-decoration: none;
+	color: crimson;
+}
+.main img {
+	width: 50%;
+	height: 200px;
+	padding: 3px;
+	float: left;
+}
+.main .artikel p {
+	padding: 5px;
+	text-align: justify;
+}
+.container .layanan .jenis h3 { /*---layanan.html---*/
+	font-size: 25px;
+	font-weight: bold;
+	color: darkorange;
+	padding: 3px;
+}
+.container .layanan {
+	width: 100%;
+}
+.container .layanan .layanan1 {
+	border: 1px;
+	margin: 5px;
+	border-color: black;
+	border-style: solid;
+}
+.container .layanan .layanan1 img {
+	width: 25%;
+	padding: 3px;
+	float: left;
+}
+.container .layanan .layanan1 b { /*---end of layanan.html---*/
+	font-size: 20px;
+	font-weight: bold;
+}
+.container .layanan .layanan1 b a {
+	text-decoration: none;
+	font-size: 20px;
+}
+.container .layanan .layanan1 a {
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	background-color: darkred;
+	border: 1px;
+	border-style: solid;
+	border-color: darkred;
+	padding-right: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	float: right;
+}
+.container .layanan .layanan1 a:hover {
+	background-color: darkseagreen;
+}
+.product .list { /*----product---*/
+	width: 98%;
+	margin: auto;
+}
+.container .product .list .product1 {
+	width: 150px;
+	height: 170px;
+	
+	float: left;
+	margin: 2px;
+}
+.container .product .list .product1 img {
+	width: 120px;
+	height: 85px;
+	margin-left: 15px;
+}
+.container .product .list .product1 h3 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+}
+.container .product .list .product1 p{
+	text-align: center;
+}
+.container .product .list .product1 p a {
+	color: khaki;
+	text-decoration: none;
+	background-color: blue;
+	border: 1px;
+	border-color: blue;
+	border-style: double;
+	padding: 2px;
+}
+.container .product .list .product1 p a:hover { /*----end of product---*/
+	background-color: maroon;
+}
+.container .contactus h3 { /*---hubungi kami contactus---*/
+	font-size: 25px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: coral;
+	padding: 3px;
+}
+.container .contactus p, address {
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif;
+	padding: 3px;
+}
+.container .contactus ul li {
+	margin: auto;
+	display: inline-block;
+	padding-right: 5px;
+}
+.container .contactus ul li a img {
+	width: 30px;
+	height: 30px;
+}
+.container .contactus ul li a:hover{
+	background-color: cyan;
+}
+/*---end of content main---*/
+/*---content sideright---*/
+.content .sideright {
+	width: 30%;
+	float: right;
+}
+.sideright .owner h3 {
+	font-size: 20px;
+	font-family: cursive;
+	font-weight: bold;
+	color: darkkhaki;
+	padding-bottom: 3px;
+}
+.sideright img {
+	width: 3cm;
+	height: 4cm;
+	padding: 3px;
+	float: left;
+}
+.sideright .profil p {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: justify;
+	padding: 3px;
+}
+.sideright .sidemenu h3 {
+	font-size: 16px;
+	font-weight: bold;
+	color: dimgray;
+	padding: 3px;
+}
+.sideright ul li a {
+	text-decoration: none;
+	color: black;
+	padding: 3px;
+}
+.sideright a:hover {
+	color: chocolate;
+}
+/*---end of content sideright---*/
+.container .bacajuga img { /*---baca juga---*/
+	width: 100px;
+	height: 100px;
+	float: left;
+	padding: 3px;
+}
+.container .bacajuga h3 {
+	font-size: 25px;
+	font-weight: bold;
+	color: darksalmon;
+	padding-bottom: 3px;
+}
+.container .bacajuga .readmore a {
+	text-decoration: none;
+	font-size: 20px;
+	float: right;
+	margin-right: 5px;
+	color: black;
+	font-weight: bold;
+}
+.container .bacajuga .readmore a:hover {
+	background-color: burlywood;
+}
+/*---content footer---*/
+.container .footer {
+	width: 100%;
+	height: 30px;
+	background-color: black;
+}
+.container .footer p {
+	font-size: 12px;
+	color: cornsilk;
+	text-align: center;
+	padding-top: 10px;
+}
+/*---end of content footer---*/
+
+
+
+
+
+/*---end of content---*/
+/*---end container---*/
+
+
+/*----Micro clearfix----*/
+.cf:before,
+.cf:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+	*zoom: 1;
+}
+/*----end Micro clearfix----*/
